@@ -17,7 +17,7 @@ function myEval(cmd, context, filename, callback) {
     console.log("ok bye");
     replServer.exit();
   } else {
-    callback(null, "no, fuck you");
+    callback(null, "no");
   }
 }
 
